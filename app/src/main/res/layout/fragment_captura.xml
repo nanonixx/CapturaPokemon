@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="   " />
+
+    <EditText
+        android:id="@+id/PS_max"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="PS máximos"/>
+    <EditText
+        android:id="@+id/PS_act"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="PS actuales"/>
+
+    <EditText
+        android:id="@+id/Rc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ratio de Captura (mirar Wikidex)"/>
+
+    <CheckBox
+        android:id="@+id/Be"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Problema de Estado"
+        android:onClick="onCheckboxClicked"/>
+
+    <Button
+        android:id="@+id/Calcular"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:text="Calcular" />
+    <TextView
+        android:id="@+id/cuota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
