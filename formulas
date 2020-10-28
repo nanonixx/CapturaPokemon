@@ -1,0 +1,19 @@
+
+FÓRMULAS
+
+Probabilidad(%): (a+1) / 256*100
+
+Cálculo de a: ( (3*PSmax - 2*PSact) * Rc ) / (3*PSmax) + Be
+
+
+CONSTRAINTS
+
+Be: 0 XOR 10
+
+1 < PSmax < 714
+
+1 < PSact < PSmax
+
+3 < Rc < 255
+
+1 < a < 255
