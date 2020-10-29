@@ -39,7 +39,7 @@
         android:layout_height="67dp"
         android:text="Calcular" />
     <TextView
-        android:id="@+id/cuota"
+        android:id="@+id/probs"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 </LinearLayout>
